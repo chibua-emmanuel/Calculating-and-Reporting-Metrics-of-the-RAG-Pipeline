@@ -23,7 +23,7 @@ if 'qa_chain' not in st.session_state:
     st.session_state['qa_chain'] = None
 
 # Load the OpenAI API key from a secure location
-openai_api_key = "sk-proj-62mSlyzVgftvlqDEgd5nT3BlbkFJC83gxWPqhVndJfA4jrNC"  # Replace with your actual OpenAI API key
+openai_api_key = "..."  # Replace with your actual OpenAI API key
 
 # Function to load and split PDF
 def load_and_split_pdf(file_path):
